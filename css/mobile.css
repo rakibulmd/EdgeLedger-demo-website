@@ -1,0 +1,87 @@
+#what .items .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#what .items .item div {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+#what .items .item i {
+  padding: 1rem;
+  background: #93cb52;
+  border-radius: 50%;
+  margin-bottom: 0;
+}
+
+#what .items {
+  display: block;
+  padding: 1.5rem 1rem;
+}
+
+
+#main-header > .container {
+  flex-direction: column;
+}
+
+
+#main-header ul {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#main-header ul li {
+  border-bottom: 1px dotted #666;
+  display: block;
+}
+
+#main-header ul li a {
+  display: block;
+  padding: .5rem 1.5rem;
+}
+
+#main-header {
+  position: inherit;
+}
+
+
+#showcase .showcase-content h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+#showcase .showcase-content  p {
+  text-align: center;
+}
+
+#who {
+  display: inherit;
+}
+
+#who .who-img {
+  display: none;
+}
+
+#who .who-text h2 {
+  text-align: center;
+  
+}
+
+#clients .client img {
+  width: 90%;
+  display: block;
+}
+
+/* Contact */
+
+#contact {
+  flex-direction: column;
+}
+
+#contact .map iframe {
+  padding: 0;
+  height: 350px;
+}
